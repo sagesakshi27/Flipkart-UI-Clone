@@ -1,1 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#2874f0">
+    <title>ShopEasy - Flipkart Style</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="header-top">
+
+            <div class="logo">
+                <img src="https://logos-world.net/wp-content/uploads/2020/11/Flipkart-Emblem.png" alt="ShopEasy Logo">
+                <span class="logo-text">Flipkart</span>
+            </div>
+
+            <div class="header-actions">
+                <div class="header-icon"><i class="far fa-user"></i></div>
+                <div class="header-icon"><i class="far fa-heart"></i><span class="badge">2</span></div>
+                <div class="header-icon"><i class="fas fa-shopping-cart"></i><span class="badge">3</span></div>
+            </div>
+        </div>
+
+        <div class="search-bar">
+            <input id="searchInput" type="text" placeholder="Search for products, brands and more">
+            <button class="mic-btn"><i class="fas fa-microphone"></i></button>
+            <button class="search-btn"><i class="fas fa-search"></i></button>
+        </div>
+    </div>
+
+    <div class="nav-tabs">
+        <div class="nav-item active">Home</div>
+        <div class="nav-item">Electronics</div>
+        <div class="nav-item">Fashion</div>
+        <div class="nav-item">Appliances</div>
+        <div class="nav-item">Toys</div>
+        <div class="nav-item">Furniture</div>
+        <div class="nav-item">Grocery</div>
+    </div>
+
+
+    <div class="banner">
+        <div class="carousel">
+            <button class="carousel-prev">&lt;</button>
+            <div class="carousel-images">
+                <img loading="lazy"
+                    src="https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/fd4603eba4f04cb4.jpg?q=90">
+
+                <img loading="lazy"
+                    src="https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/0053b0d2452256a1.jpg?q=90">
+
+                <img loading="lazy"
+                    src="https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/aaf445f792c0f0ca.jpg?q=90">
+            </div>
+            <button class="carousel-next">&gt;</button>
+        </div>
+    </div>
+
+
+    <div class="categories">
+        <div class="category-item">
+            <img class="category-img"
+                src="https://rukminim2.flixcart.com/fk-p-flap/64/64/image/2ebb95ec20eae8f1.png?q=100">
+            <div class="category-name">Grocery</div>
+        </div>
+
+        <div class="category-item">
+            <img class="category-img"
+                src="https://rukminim2.flixcart.com/fk-p-flap/64/64/image/cd6aca4f61e8ea95.png?q=100">
+            <div class="category-name">Mobiles</div>
+        </div>
+
+        <div class="category-item">
+            <img class="category-img"
+                src="https://rukminim2.flixcart.com/fk-p-flap/64/64/image/ec2982e5564fe07c.png?q=100">
+            <div class="category-name">Fashion</div>
+        </div>
+
+        <div class="category-item">
+            <img class="category-img"
+                src="https://rukminim2.flixcart.com/fk-p-flap/64/64/image/4d6b13d5a0e0724a.png?q=100">
+            <div class="category-name">Electronics</div>
+        </div>
+    </div>
+
+
+    <div class="product-section">
+        <div class="section-header">
+            <div class="section-title">Deals of the Day</div>
+            <div class="view-all">View All</div>
+        </div>
+        <div class="products" id="product-container"></div>
+    </div>
+
+
+    <div class="bottom-nav">
+        <div class="nav-icon active">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+        </div>
+
+        <div class="nav-icon">
+            <i class="fas fa-list"></i>
+            <span>Categories</span>
+        </div>
+
+        <div class="nav-icon">
+            <i class="far fa-heart"></i>
+            <span>Wishlist</span>
+        </div>
+
+        <div class="nav-icon">
+            <i class="fas fa-shopping-cart"></i>
+            <span>Cart</span>
+        </div>
+
+        <div class="nav-icon">
+            <i class="far fa-user"></i>
+            <span>Account</span>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
