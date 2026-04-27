@@ -1,1 +1,30 @@
-
+[
+  {
+    "title": "Apple iPhone 15 (Black, 256 GB)",
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/h/d/9/-original-imagtc2qzgnnuhxh.jpeg?q=70",
+    "currentPrice": "₹56,999",
+    "originalPrice": "₹69,900",
+    "discount": "18% off"
+  },
+  {
+    "title": "Apple iPhone 14 (Black, 256 GB)",
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/h/d/9/-original-imagtc2qzgnnuhxh.jpeg?q=70",
+    "currentPrice": "₹49,990",
+    "originalPrice": "₹65,990",
+    "discount": "24% off"
+  },
+  {
+    "title": "Apple iPhone 15 (Black, 256 GB)",
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/h/d/9/-original-imagtc2qzgnnuhxh.jpeg?q=70",
+    "currentPrice": "₹17,299",
+    "originalPrice": "₹39,990",
+    "discount": "67% off"
+  },
+  {
+    "title": "Apple iPhone 14 (Black, 256 GB)",
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/h/d/9/-original-imagtc2qzgnnuhxh.jpeg?q=70",
+    "currentPrice": "₹25,499",
+    "originalPrice": "₹49,999",
+    "discount": "50% off"
+  }
+]
