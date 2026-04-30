@@ -19,7 +19,7 @@ Flipkart-UI-Clone/
 ├── script.js            # UI logic and event handling
 ├── data.json            # Product data source
 ├── LICENSE
-└── README.md         # Project documentation
+└── README.md            # Project documentation
 ```
 
 ---
